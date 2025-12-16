@@ -3076,6 +3076,7 @@
 /ip dns static add name=w7.web.whatsapp.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=w8.web.whatsapp.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=w9.web.whatsapp.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=wa.me type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=wa9842a181-ha4tonzvha4dmob.snr.whatsapp.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=walmart.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=watchguard.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -3091,6 +3092,18 @@
 /ip dns static add name=webtp.whatsapp.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=weebly.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=welt.de type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=whatsapp-plus.info type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=whatsapp-plus.me type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=whatsapp-plus.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=whatsapp.biz type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=whatsapp.cc type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=whatsapp.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=whatsapp.fbsbx.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=whatsapp.info type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=whatsapp.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=whatsapp.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=whatsapp.tv type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=whatsappbrand.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=wide-youtube.l.google.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=widgetapp.stream type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=wiki.fextralife.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -3099,6 +3112,7 @@
 /ip dns static add name=windows10spotlight.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=windsurf.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=wise.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=wl.co type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=wonderzine.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=wpengine.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=wunderground.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
