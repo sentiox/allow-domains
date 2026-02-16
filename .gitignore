@@ -1,7 +1,4 @@
-antifilter-domains.lst
-uablacklist-domains.lst
-zaboronahelp-domains.lst
-SRS
-JSON
-DAT
-geosite_data
+*.pyc
+__pycache__/
+.venv/
+Подкоп/

@@ -1,9 +1,5 @@
 name: Create subnets
 
-concurrency:
-  group: allow-domains
-  cancel-in-progress: false
-
 on:
   push:
     branches: [ "main" ]
@@ -19,28 +15,19 @@ permissions:
 jobs:
   generate-subnet:
     runs-on: ubuntu-22.04
-
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Pull latest changes
-        run: |
-          git config user.name "GitHub Action"
-          git config user.email "githubaction@githubaction.com"
-          git pull --rebase origin main
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      - name: Generate subnets
-        run: python get-subnets.py
-
-      - name: Push subnets
-        uses: EndBug/add-and-commit@v9.1.4
-        with:
-          add: 'Subnets'
-          message: 'Update subnet'
+    - uses: actions/checkout@v4.1.7
+    - name: Generate subnets
+      uses: actions/setup-python@v5.1.0
+      with:
+        python-version: '3.10'
+    - run: |
+        python get-subnets.py
+    - name: Push subnets
+      uses: EndBug/add-and-commit@v9.1.4
+      with:
+        add: 'Subnets'
+        author_name: GitHub Action
+        author_email: githubaction@githubaction.com
+        message: 'Update subnet'
+        push: true

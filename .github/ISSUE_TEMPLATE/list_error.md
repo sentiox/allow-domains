@@ -16,5 +16,5 @@ assignees: ''
 
 
 ### Какая программа используется?
-<!-- Например: sentinel, Getdomains, Nekobox, etc. -->
+<!-- Например: Podkop, Getdomains, Nekobox, etc. -->
 
